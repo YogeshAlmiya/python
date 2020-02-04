@@ -1,5 +1,5 @@
 apple_price = 2
-# Assign 10 to the money variable
+# Assigning 10 to the money variable
 money=10
 
 input_count = input('How many apples do you want?: ')
@@ -9,7 +9,7 @@ total_price = apple_price * count
 print('You will buy ' + str(count) + ' apples')
 print('The total price is ' + str(total_price) + ' dollars')
 
-# Add control flow based on the comparison of money and total_price
+# Adding control flow based on the comparison of money and total_price
 if money>total_price:
     print('You have bought '+str(count)+' apples')
     print('You have '+str(money-total_price)+' dollars left')
